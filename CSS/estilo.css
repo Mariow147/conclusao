@@ -1,0 +1,365 @@
+@import url('https://fonts.googleapis.com/css2?family=Cutive+Mono&display=swap');
+.body{
+    background-color: rgb(198, 198, 198);
+    margin: 0px;
+    padding: 0px;
+    
+}
+.principal{
+    width: 360px;
+    height: 740px;
+    margin: auto;
+    background-color: gray;
+    
+
+}
+.navegacao{
+    width: 360px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+.botao{
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
+    margin-left: 30px;
+    font-size: 20px;
+    text-decoration: none;
+    
+}
+.botao:hover{
+    color: sienna;
+    font-weight: bold;
+}
+.texto001{
+    width: 70%;
+    height: 200px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    font-size: 30px;
+}
+.area001{
+    width: 90%;
+    height: 460px;
+    background-color: rgb(70, 69, 69);
+    margin: auto;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+}
+.area002{
+    width: 85%;
+    height: 300px;
+    margin: auto;
+    background-color: aliceblue;
+    margin-bottom: 20px;
+    border-radius: 30px;
+    background-image: url(/Imagens/p1.png);
+    background-size: cover;
+    
+
+}
+.texto002{
+    width: 70%;
+    height: 200px;
+    margin: auto;
+    margin-top: 20px;
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    
+    
+}
+.principal2{
+    width: 360px;
+    height: 1300px;
+    background-color: gray;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.d1{
+    width: 1000px;
+    height: 300px;
+   
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    
+    
+}
+.quadrado{
+    width: 250px;
+    height: 280px;
+    background-color: rgb(67, 64, 64);
+    margin-top: 10px;
+    border-radius: 30px;
+    background-image: url(/Imagens/s1a.png)
+    
+
+}
+.qd2{
+    width: 250px;
+    height: 280px;
+    background-color: black;
+    margin-top: 10px;
+    border-radius: 30px;
+    background-image: url(/Imagens/s2i.png);
+    
+}
+.qd3{
+    width: 250px;
+    height: 280px;
+    background-color: black;
+    margin-top: 10px;
+    border-radius: 30px;
+    background-image: url(/Imagens/s3ç.png);
+    
+}
+.dvd{
+    width: 600px;
+    height: 200px;
+    margin-left: 350px;
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+.textop2{
+    width: 300px;
+    height: 60px;
+    margin-top: 400px;
+    margin-left: -300px;
+}
+.bola{
+    width: 350px;
+    height: 100px;
+    margin-top: 100px;
+    margin-left: 20px;
+    display: flex;
+    justify-content: space-around;
+ 
+}
+.bl1{
+    border-radius: 300px;
+    background-color: rgb(0, 0, 0);
+    height: 100px;
+    width: 100px;
+    margin-top: 150px;
+}
+.bl2{
+    border-radius: 300px;
+    background-color: rgb(0, 0, 0);
+    height: 100px;
+    width: 100px;
+    margin-top: 150px;
+}
+.bl3{
+    border-radius: 300px;
+    background-color: rgb(0, 0, 0);
+    height: 100px;
+    width: 100px;
+    margin-top: 150px;
+
+}
+.principal3{
+    width: 360px;
+    height: 1000px;
+    background-color: gray;
+    margin: auto;
+    
+    
+}
+.q1{
+    width: 740px;
+    height: 300px;
+    display: flex;
+    border-radius: 30px;
+    
+    
+    
+    
+}
+.q2{
+    width: 340px;
+    height: 270px;
+    margin-top: 10PX;
+    margin-left: 10PX;
+}
+.tt{
+    width: 360px;
+    margin-top: 50px;
+    margin-left: 10px;
+}
+.q3{
+    width: 340px;
+    height: 360px;
+    background-color: rgb(94, 122, 146);
+    border-radius: -20px;
+    margin-top: 10PX;
+    margin-left: 10PX;
+}
+/*X-Large (Aplicacao para desktops, 1200px and up)*/
+@media (min-width: 1200px) {
+    .principal{
+        width: 1000px;
+        height: 800px;
+    }
+    .navegacao{
+        
+
+    }
+    .texto001{
+        height: 250px;
+
+    }
+    .area001{
+        width: 900px;
+        height: 300px;
+        flex-direction: row;
+    }
+    .area002{
+        width: 40%;
+        height: 260px;
+
+
+    }
+    .texto002{
+        width: 40%;
+        height: 260px;
+
+    }
+
+.principal2{
+    width: 1000px;
+    height: 900px;
+    background-color: gray;
+    margin: auto;
+}
+.d1{
+    width: 1000px;
+    height: 300px;
+    display: flex;
+    justify-content: space-around;
+    
+    
+}
+.quadrado{
+    width: 250px;
+    height: 280px;
+    margin-top: 20px;
+    border-radius: 30px;
+    background-image: url(/Imagens/s1a.png)
+    
+
+}
+.qd2{
+    width: 250px;
+    height: 280px;
+   
+    margin-top: 10px;
+    border-radius: 30px;
+    background-image: url(/Imagens/s2i.png);
+    
+}
+.qd3{
+    width: 250px;
+    height: 280px;
+   
+    margin-top: 10px;
+    border-radius: 30px;
+    background-image: url(/Imagens/s3ç.png);
+    
+}
+.dvd{
+    width: 800px;
+    height: 200px;
+    margin-left: 350px;
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+.textop2{
+    margin: auto;
+    margin-left: 40px;
+}
+.bola{
+    width: 350px;
+    height: 100px;
+    margin-top: 0px;
+    margin-left: 0px;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    
+}
+.bl1{
+    border-radius: 300px;
+    background-color: rgb(0, 0, 0);
+    height: 100px;
+    width: 100px;
+    margin-top: auto;
+}
+.bl2{
+    border-radius: 300px;
+    background-color: rgb(0, 0, 0);
+    height: 100px;
+    width: 100px;
+    margin: auto;
+}
+.bl3{
+    border-radius: 300px;
+    background-color: rgb(0, 0, 0);
+    height: 100px;
+    width: 100px;
+    margin-top: auto;
+
+}
+.principal3{
+    width: 1000px;
+    height: 800px;
+    
+    margin: auto;
+    
+    
+}
+.q1{
+    width: 950px;
+    height: 300px;
+    display: flex;
+    border-radius: 30px;
+    margin-left: 25px;
+    
+    
+    
+}
+.q2{
+    width: 340px;
+    height: 270px;
+    margin-top: 15px;
+    margin-left: 40px;
+    border-radius: 30px;
+    
+}
+.tt{
+    width: 400px;
+    margin-top: 50px;
+    margin-left: 50px;
+        
+}
+.q3{
+    width: 400px;
+    height: 400px;
+    background-color: rgb(50, 120, 182);
+    margin-left: 550px;
+    margin-top: -140px;
+    border-radius: -20px;
+}
+}
